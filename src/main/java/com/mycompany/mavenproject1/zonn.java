@@ -142,7 +142,7 @@ else if (player1 == 1 && player2 == 3)
     
     JOptionPane.showMessageDialog(null,"Player 1 Win","VS", HEIGHT);
 }    
-else if (player1 == 2 && player1 == 1)
+else if (player1 == 2 && player2 == 1)
 {
     txt3.setText("" + asd1);
     
@@ -154,19 +154,19 @@ else if (player1 == 2 && player2 == 2)
 }    
 else if (player1 == 2 && player2 == 3)
 {
-    txt4.setText("" + asd2);
+    txt3.setText("" + asd2);
     
     JOptionPane.showMessageDialog(null,"Player 2 Win","VS", HEIGHT);
 }
 else if (player1 == 3 && player2 == 1)
 {
-    txt3.setText("" + asd1);
+    txt4.setText("" + asd1);
     
     JOptionPane.showMessageDialog(null,"Player 1 Win","VS", HEIGHT);
 }    
 else if (player1 == 3 && player2 == 2)
 {
-    txt4.setText("" + asd2);
+    txt3.setText("" + asd2);
     
     JOptionPane.showMessageDialog(null,"Player 2 Win","VS", HEIGHT);
 }
