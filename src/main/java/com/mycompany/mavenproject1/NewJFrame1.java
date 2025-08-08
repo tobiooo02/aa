@@ -74,14 +74,16 @@ public class NewJFrame1 extends javax.swing.JFrame {
           int quarter3 = Integer.parseInt( txt3.getText());
           int quarter4 = Integer.parseInt( txt4.getText());
           
-           int ave = (quarter1 + quarter2 + quarter3 + quarter4 /4);
+           
+           float add = (quarter1 + quarter2 + quarter3 + quarter4)/4;
+           JOptionPane.showMessageDialog(null,"your passed","+total", JOptionPane.INFORMATION_MESSAGE);
            
            
-          if (ave <=74)
+          if (add >=74)
           {
-              JOptionPane.showMessageDialog(null,"Your Passed","Average", JOptionPane.INFORMATION_MESSAGE);
+              JOptionPane.showMessageDialog(null,"Your Passed","+total", JOptionPane.INFORMATION_MESSAGE);
           }
-          else if (ave >= 90)
+          else if (add >= 90)
           {
               JOptionPane.showMessageDialog(null,"Your Passeed","With Honor",JOptionPane.INFORMATION_MESSAGE);
           }
